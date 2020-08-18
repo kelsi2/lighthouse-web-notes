@@ -1,6 +1,7 @@
 # Day 2 Lecture Notes
 
 [Lecture slides here](https://docs.google.com/presentation/d/1m3R_aN4S5YoCBmXRbjaZQGatygWyZXYLcN-fkcP_HWA/edit)
+[Lecture notes and code here](https://github.com/tborsa/lectures/tree/master/week1/day2)
 
 ## Curriculum
 
