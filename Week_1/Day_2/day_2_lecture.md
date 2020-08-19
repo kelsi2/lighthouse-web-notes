@@ -63,11 +63,30 @@
 #### Remote
 * Remote repo
 
+### Git Commands
+* Init: initializes a git repository for the current directory/folder.
+
+-->
+* Add: Adds the specified files to the staging area for future commits.
+
+-->
+* Commit: Saves the staged files to the local git repository. (commit often)
+
+-->
+* Remote: Adds a remote repository
+
+-->
+* Push: Updates the remote git repository with any new changes in the local git repository.
+
 ## Writing Code Incrementally
 
 * Break problems into smaller steps
   * Easier to isolate errors and debug
   * Refactor/improve code as we go
+* Lint code as you go
+  * Avoid copy/pasting!
+* console.log to understand data
+* Use node debug with debugger
 
 ### Goal: 
 Write a node program that takes in an unlimited number of command line arguments, goes through each and prints out the sum of them. If any argument is not a whole number, skip it. Do support negative numbers though. 
@@ -131,3 +150,25 @@ Write a node program that takes in an unlimited number of command line arguments
 
 * Comments should explain why something is done or context, not necessarily to explain what is being done (that should be clear if code is written well)
   * Can also use comments for organization (create sections of function declarations, for example)
+
+## Debugging
+
+1) Logical errors
+  * Use console.logs and debugger to understand why
+  * Dry run of code in your head
+2) Parsing errors
+  * Look for syntax errors and research
+  * Practice reading errors before copy pasting to Google
+  * MDN for examples
+  * Experiment with Googling
+    * Included relevant information?
+    * If mentor googles pay attention to what they search
+    * Do you need mentor support?
+
+## Tools
+
+[JavaScript Tutor](http://pythontutor.com/javascript.html#mode=edit)
+
+[Node Debugger](https://nodejs.org/api/debugger.html)
+
+  * node inspect <filename>
