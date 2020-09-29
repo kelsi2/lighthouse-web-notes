@@ -5,6 +5,9 @@
 ### Async Execution of Queries (using pg library with promises)
 ### Sanitization of User Input (how and why)
 
+[Notes and code here](https://github.com/andydlindsay/aug172020/tree/master/w05d03)
+[Lecture here](https://us02web.zoom.us/rec/play/tlzaHVgE_M_OpxK-AAKhoXqYodKD5Y89_QR93_sz76tK2oX2H_K4_3eQowr6HqzkDP6qwFcCkgMglT-O.3s93iZiq062xBNHB?startTime=1600273366000&_x_zm_rtaid=bN4HNdflRvmFw_G60a2RXg.1600288153435.3860a37b5e2d755e3d77e273450971e4&_x_zm_rhtaid=408)
+
 * node-postgres npm package allows node to talk to sql
 * postgres instance url has everything we need for config:
   * // to : = user
